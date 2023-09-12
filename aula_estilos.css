@@ -1,0 +1,83 @@
+.cabecalho{
+    border-radius: 7px;
+    background-color: red;
+    color: #fff;
+    box-shadow: 10px 5px 15px rgb(201, 64, 64);
+    padding-top: 45px; /*Dentro cima*/ 
+    padding-bottom: 45px;
+    padding-left: 10px;
+    margin-left: 100px; /*Fora esquerda*/
+    margin-right: 100px;
+    text-align: center;
+    font-family: calibri;
+}
+.cardlogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.login {
+    width: 100%; 
+    background-color: #fff;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10 10 5px rgb(54, 52, 52); 
+}
+
+.login h2 {
+    font-size: 20px;
+    font-family: arial;
+    color: #9b2f0f
+}
+.login p {
+        font-size: 16px;
+}
+.conteudo{
+    border-radius: 7px;
+    background-color: rgb(14, 13, 13);
+    color: #fff;
+    box-shadow: 10px 5px 15px rgb(58, 54, 54);
+    padding-top: 45px; /*Dentro cima*/ 
+    padding-bottom: 45px;
+    padding-left: 10px;
+    margin-left: 100px; /*Fora esquerda*/
+    margin-right: 100px;
+    text-align: center;
+    font-family: calibri;
+}
+
+.direito{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 5px 5px 25px rgb(15, 15, 15);
+}
+
+.card-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    width: 23%; /*Largura fixa para 4 cards*/
+    background-color: #fff;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10 10 5px rgb(54, 52, 52);
+}
+
+.card h2 {
+    font-size: 20px;
+    font-family: arial;
+    color: #9b2f0f
+}
+.card p {
+        font-size: 16px;
+}
